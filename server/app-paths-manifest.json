@@ -1,0 +1,18 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/[locale]/farming/page": "app/[locale]/farming/page.js",
+  "/[locale]/(earn)/realyield/page": "app/[locale]/(earn)/realyield/page.js",
+  "/[locale]/NFTAirdrop/page": "app/[locale]/NFTAirdrop/page.js",
+  "/[locale]/(earn)/defi-marketplace/page": "app/[locale]/(earn)/defi-marketplace/page.js",
+  "/[locale]/(earn)/convert-tokens/page": "app/[locale]/(earn)/convert-tokens/page.js",
+  "/[locale]/berries/page": "app/[locale]/berries/page.js",
+  "/[locale]/(earn)/stability-pool/page": "app/[locale]/(earn)/stability-pool/page.js",
+  "/[locale]/litemodePrimeinvest/page": "app/[locale]/litemodePrimeinvest/page.js",
+  "/[locale]/bridge/page": "app/[locale]/bridge/page.js",
+  "/[locale]/chat/page": "app/[locale]/chat/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/portfolio/page": "app/[locale]/portfolio/page.js",
+  "/[locale]/position/page": "app/[locale]/position/page.js",
+  "/[locale]/welcomeLite/page": "app/[locale]/welcomeLite/page.js",
+  "/[locale]/welcome/page": "app/[locale]/welcome/page.js"
+}

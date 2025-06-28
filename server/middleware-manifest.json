@@ -1,0 +1,357 @@
+{
+  "sortedMiddleware": [
+    "/"
+  ],
+  "middleware": {
+    "/": {
+      "files": [
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/src/middleware.js"
+      ],
+      "name": "src/middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next|_vercel|.*\\..*).*))(.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|_next|_vercel|.*\\..*).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "functions": {
+    "/[locale]/farming/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/farming/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/farming/page.js"
+      ],
+      "name": "app/[locale]/farming/page",
+      "page": "/[locale]/farming/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/farming$",
+          "originalSource": "/[locale]/farming"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/(earn)/realyield/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/(earn)/realyield/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/(earn)/realyield/page.js"
+      ],
+      "name": "app/[locale]/(earn)/realyield/page",
+      "page": "/[locale]/(earn)/realyield/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/realyield$",
+          "originalSource": "/[locale]/realyield"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/NFTAirdrop/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/NFTAirdrop/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/NFTAirdrop/page.js"
+      ],
+      "name": "app/[locale]/NFTAirdrop/page",
+      "page": "/[locale]/NFTAirdrop/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/NFTAirdrop$",
+          "originalSource": "/[locale]/NFTAirdrop"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/(earn)/defi-marketplace/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/(earn)/defi-marketplace/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/(earn)/defi-marketplace/page.js"
+      ],
+      "name": "app/[locale]/(earn)/defi-marketplace/page",
+      "page": "/[locale]/(earn)/defi-marketplace/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/defi\\-marketplace$",
+          "originalSource": "/[locale]/defi-marketplace"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/(earn)/convert-tokens/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/(earn)/convert-tokens/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/(earn)/convert-tokens/page.js"
+      ],
+      "name": "app/[locale]/(earn)/convert-tokens/page",
+      "page": "/[locale]/(earn)/convert-tokens/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/convert\\-tokens$",
+          "originalSource": "/[locale]/convert-tokens"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/berries/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/berries/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/berries/page.js"
+      ],
+      "name": "app/[locale]/berries/page",
+      "page": "/[locale]/berries/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/berries$",
+          "originalSource": "/[locale]/berries"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/(earn)/stability-pool/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/(earn)/stability-pool/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/(earn)/stability-pool/page.js"
+      ],
+      "name": "app/[locale]/(earn)/stability-pool/page",
+      "page": "/[locale]/(earn)/stability-pool/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/stability\\-pool$",
+          "originalSource": "/[locale]/stability-pool"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/litemodePrimeinvest/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/litemodePrimeinvest/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/litemodePrimeinvest/page.js"
+      ],
+      "name": "app/[locale]/litemodePrimeinvest/page",
+      "page": "/[locale]/litemodePrimeinvest/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/litemodePrimeinvest$",
+          "originalSource": "/[locale]/litemodePrimeinvest"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/bridge/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/bridge/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/bridge/page.js"
+      ],
+      "name": "app/[locale]/bridge/page",
+      "page": "/[locale]/bridge/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/bridge$",
+          "originalSource": "/[locale]/bridge"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/chat/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/chat/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/chat/page.js"
+      ],
+      "name": "app/[locale]/chat/page",
+      "page": "/[locale]/chat/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/chat$",
+          "originalSource": "/[locale]/chat"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/page.js"
+      ],
+      "name": "app/[locale]/page",
+      "page": "/[locale]/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)$",
+          "originalSource": "/[locale]"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/portfolio/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/portfolio/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/portfolio/page.js"
+      ],
+      "name": "app/[locale]/portfolio/page",
+      "page": "/[locale]/portfolio/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/portfolio$",
+          "originalSource": "/[locale]/portfolio"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/position/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/position/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/position/page.js"
+      ],
+      "name": "app/[locale]/position/page",
+      "page": "/[locale]/position/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/position$",
+          "originalSource": "/[locale]/position"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/welcomeLite/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/welcomeLite/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/welcomeLite/page.js"
+      ],
+      "name": "app/[locale]/welcomeLite/page",
+      "page": "/[locale]/welcomeLite/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/welcomeLite$",
+          "originalSource": "/[locale]/welcomeLite"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/[locale]/welcome/page": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/[locale]/welcome/page_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "prerender-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/[locale]/welcome/page.js"
+      ],
+      "name": "app/[locale]/welcome/page",
+      "page": "/[locale]/welcome/page",
+      "matchers": [
+        {
+          "regexp": "^/(?<locale>[^/]+?)/welcome$",
+          "originalSource": "/[locale]/welcome"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}
